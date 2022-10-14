@@ -11,7 +11,7 @@ export function App() {
 
   return (
     <>
-      <div id='noise' className="fixed inset-0 z-10 pointer-events-none opacity-40"></div>
+      <div id="noise" className="fixed inset-0 z-50 pointer-events-none opacity-20"></div>
       <Header />
       <Banner />
       <Projects />

@@ -5,3 +5,44 @@
 #noise {
     background: url(noise.png);
 }
+
+html {
+    @apply overflow-x-hidden;
+
+}
+
+body {
+    @apply bg-zinc-900 text-zinc-100 antialiased;
+}
+
+button {
+    @apply font-bold
+}
+
+button, a {
+    @apply cursor-pointer;
+}
+
+li a {
+    @apply text-zinc-500 transition-colors duration-300
+}
+
+li a:hover {
+    @apply text-zinc-200
+}
+
+section {
+    @apply relative z-10 w-full max-w-7xl h-[calc(100vh-132px)] sm:h-[calc(100vh-104px)] py-12 px-8 sm:px-4 m-auto;
+}
+
+@media (max-width: 1024px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+@media (max-width: 320px) {
+    html {
+        font-size: 75%;
+    }
+}

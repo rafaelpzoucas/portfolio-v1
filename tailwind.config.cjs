@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: 'Ubuntu, sans-serif'
+      },
+      animation: {
+        'pulse-slow': 'pulse 7s linear infinite',
       }
     },
   },

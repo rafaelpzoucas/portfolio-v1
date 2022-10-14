@@ -1,7 +1,7 @@
 export function Projects() {
     return(
         <section>
-            Projects
+            <h1>{"<MeusProjetos>"}</h1>
         </section>
     )
 }
