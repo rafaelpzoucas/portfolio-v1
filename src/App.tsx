@@ -15,7 +15,7 @@ export function App() {
       <Header />
       <Banner />
       <Projects />
-      <AboutMe />
+      {/* <AboutMe /> */}
       <Comments />
       <Contact />
       <Footer />
