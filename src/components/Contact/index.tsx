@@ -34,7 +34,7 @@ export function Contact() {
                         <FaRegEnvelope />
                         <span>E-mail</span>
                     </div>
-                    <span className="text-zinc-400">Meu perfil profissional</span>
+                    <span className="text-zinc-400">Para falar comigo</span>
                 </a>
             </main>
         </section>
