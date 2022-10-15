@@ -1,7 +1,6 @@
 import handCoding from '../../../public/hand-coding.svg'
 import { BackgroundCircles } from '../BackgroundCircles'
 import { FaGithub, FaLinkedin, FaRegEnvelope, FaWhatsapp } from 'react-icons/fa'
-import { CgScrollV } from 'react-icons/cg'
 import { motion } from 'framer-motion'
 import { CaretDoubleDown } from 'phosphor-react'
 
@@ -20,7 +19,7 @@ export function Banner() {
                             <h1 className="text-5xl text-cyan-600">Transformo <br /> suas <strong className="text-cyan-500">ideias</strong> em <strong className="text-cyan-500">realidade</strong></h1>
                             <h2 className="text-4xl">Sou desenvolvedor <span className="text-blue-600">Front-end</span>, entusiasta de <span className="text-fuchsia-700">UX Design</span></h2>
                         </div>
-                        <button 
+                        <a href="mailto:rafaelpzoucas@gmail.com"
                             className="
                                 flex flex-row items-center justify-center gap-3 px-8 py-4 rounded-lg text-xl 
                                 bg-[length:800%_400%] bg-gradient-to-r from-cyan-700 to-fuchsia-700 
@@ -32,7 +31,7 @@ export function Banner() {
                             {/* bg-cyan-500 text-slate-900 hover:bg-cyan-600 transition-colors duration-300 */}
                             <FaRegEnvelope />
                             Me envie um e-mail
-                        </button>
+                        </a>
                     </div>
 
                     <div className="flex flex-row-reverse sm:flex-row items-center justify-between">
@@ -49,7 +48,7 @@ export function Banner() {
                                 </div>
                                 Linkedin
                             </a>
-                            <a href="#" className="flex flex-col items-center gap-2 font-normal text-sm" target="_blank">
+                            <a href="https://wa.me/5518998261736" className="flex flex-col items-center gap-2 font-normal text-sm" target="_blank">
                                 <div className="p-4 rounded-lg text-2xl bg-zinc-800 hover:bg-zinc-700 transition-colors duration-300">
                                     <FaWhatsapp />
                                 </div>
