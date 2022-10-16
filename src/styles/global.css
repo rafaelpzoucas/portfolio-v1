@@ -7,7 +7,7 @@
 }
 
 html {
-    @apply overflow-x-hidden;
+    @apply overflow-x-hidden scroll-smooth;
 
 }
 
@@ -23,8 +23,12 @@ button, a {
     @apply cursor-pointer;
 }
 
+li {
+    @apply py-4
+}
+
 li a {
-    @apply text-zinc-500 transition-colors duration-300
+    @apply text-xl sm:text-base text-zinc-300 sm:text-zinc-500 transition-colors duration-300
 }
 
 li a:hover {

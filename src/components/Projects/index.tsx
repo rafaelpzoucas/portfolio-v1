@@ -7,7 +7,7 @@ import { Project } from "../Project";
 
 export function Projects() {
     return(
-        <div className="relative">
+        <div id="projects" className="relative">
             <BackgroundCircles 
                 className="w-[150px] sm:w-[600px] h-[150px] sm:h-[600px] -translate-x-2/3 translate-y-1/4 rotate-180" 
             />
@@ -18,7 +18,7 @@ export function Projects() {
                         {"<Meus projetos>"}
                     </SectionHeader.Title>
                     <SectionHeader.Subtitle>
-                        Meu principais projetos
+                        Meus principais projetos
                     </SectionHeader.Subtitle>
                 </SectionHeader.Root>
 

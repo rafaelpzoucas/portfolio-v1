@@ -9,12 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.0.0",
     "clsx": "^1.2.1",
     "framer-motion": "^7.5.3",
     "phosphor-react": "^1.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.4.0"
+    "react-icons": "^4.4.0",
+    "resize-observer-polyfill": "^1.5.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.15",

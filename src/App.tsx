@@ -8,6 +8,7 @@ import { Projects } from './components/Projects'
 import './styles/global.css'
 
 export function App() {
+  window.scroll({top: 0, left: 0, behavior: 'smooth' })
 
   return (
     <>
@@ -15,7 +16,7 @@ export function App() {
       <Header />
       <Banner />
       <Projects />
-      {/* <AboutMe /> */}
+      <AboutMe />
       <Comments />
       <Contact />
       <Footer />
