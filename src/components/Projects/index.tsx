@@ -12,7 +12,7 @@ export function Projects() {
                 className="w-[150px] sm:w-[600px] h-[150px] sm:h-[600px] -translate-x-2/3 translate-y-1/4 rotate-180" 
             />
 
-            <section className="flex flex-col gap-8">
+            <section className="flex flex-col gap-12">
                 <SectionHeader.Root>
                     <SectionHeader.Title>
                         {"<Meus projetos>"}

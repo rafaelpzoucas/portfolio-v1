@@ -1,4 +1,3 @@
-import handCoding from '../../../public/hand-coding.svg'
 import { BackgroundCircles } from '../BackgroundCircles'
 import { FaGithub, FaLinkedin, FaRegEnvelope, FaWhatsapp } from 'react-icons/fa'
 import { motion } from 'framer-motion'
@@ -65,8 +64,9 @@ export function Banner() {
                         </div>
                     </div>
                 </main>
+                
                 <aside className="hidden sm:flex">
-                    <img src={handCoding} alt="Illustration of two hands coding" />
+                    <img src="hand-coding.svg" alt="Illustration of two hands coding" />
                 </aside>
             </motion.section>
         </div>

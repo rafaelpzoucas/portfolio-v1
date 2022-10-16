@@ -4,7 +4,7 @@ import { BackgroundCircles } from "../BackgroundCircles";
 
 export function Contact() {
     return (
-        <section id="getInTouch" className="flex flex-col gap-8">
+        <section id="getInTouch" className="flex flex-col gap-12">
             <SectionHeader.Root>
                 <SectionHeader.Title>
                     {"<Bora trocar uma ideia>"}

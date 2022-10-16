@@ -38,7 +38,7 @@ interface ProjectFooterButtonProps {
 
 function ProjectRoot({ children }: ProjectRootProps) {
     return (
-        <article className="flex flex-col gap-4 p-4 rounded-lg bg-zinc-800">
+        <article className="flex flex-col gap-4 p-4 rounded-lg bg-zinc-800/40 backdrop-blur-sm">
             {children}
         </article>
     )
