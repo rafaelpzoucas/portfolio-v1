@@ -14,7 +14,10 @@ export function Banner() {
                 <main className="flex flex-col h-full justify-between">
                     <div className="flex flex-col sm:items-start gap-16">
                         <div className="flex flex-col gap-4 text-2xl">
-                            <span>👋 Hello, world!</span>
+                            <span>
+                                <span className="absolute animate-[hello_1s_ease-in-out_350ms]">👋</span>
+                                <span className="ml-9">Hello, world!</span>
+                            </span>
                             <h1 className="text-5xl text-cyan-600">Transformo <br /> suas <strong className="text-cyan-500">ideias</strong> em <strong className="text-cyan-500">realidade</strong></h1>
                             <h2 className="text-4xl">Sou desenvolvedor <span className="text-blue-600">Front-end</span>, entusiasta de <span className="text-fuchsia-700">UX Design</span></h2>
                         </div>

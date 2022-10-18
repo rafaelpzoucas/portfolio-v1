@@ -7,12 +7,12 @@
 }
 
 html {
-    @apply overflow-x-hidden scroll-smooth;
+    @apply overflow-x-hidden scroll-smooth touch-none;
 
 }
 
 body {
-    @apply bg-zinc-900 text-zinc-100 antialiased;
+    @apply bg-zinc-900 text-zinc-100 antialiased overflow-x-hidden;
 }
 
 button {
