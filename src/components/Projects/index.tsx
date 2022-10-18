@@ -1,6 +1,7 @@
 import { ArrowSquareOut } from "phosphor-react";
-import { FaFigma, FaGithub, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiTypescript } from "react-icons/si";
+import { FaBootstrap, FaFigma, FaGithub, FaHtml5, FaReact } from "react-icons/fa";
+import { SiBootstrap, SiCss3, SiHtml5, SiJavascript, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io";
 import { SectionHeader } from "../atoms/SectionHeader";
 import { BackgroundCircles } from "../BackgroundCircles";
 import { Project } from "../Project";
@@ -24,7 +25,37 @@ export function Projects() {
 
                 <main className="flex flex-col gap-4 sm:gap-8">
                     <Project.Root>
-                        <Project.Image src="ignitodo.png" alt="Print da tela do app Ignitodo" />
+                        <Project.Image src="wm10-thumb.png" alt="Print da tela da landing page do WM10" />
+                        <Project.Description>
+                            <Project.DescriptionTitle>
+                                ERP WM10
+                            </Project.DescriptionTitle>
+                            <Project.DescriptionText>
+                                Projeto criado para o desafio do Bootcamp Ignite. O desafio consistia em criar uma aplicação com React e Typescript, no qual seria possível criar tarefas, marcar as concluídas e com um resumo do progresso.
+                            </Project.DescriptionText>
+                        </Project.Description>
+                        <Project.Footer>
+                            <Project.FooterStacks>
+                                <SiHtml5 title="HTML5" />
+                                <SiCss3 title="CSS3" />
+                                <SiJavascript title="JavaScript" />
+                                <SiBootstrap title="Bootstrap" />
+                            </Project.FooterStacks>
+
+                            <div className="flex flex-row gap-2">
+                                <Project.FooterButton link="#">
+                                    <ArrowSquareOut size={24} />
+                                    <span className="hidden sm:flex">
+                                        Ver em produção
+                                    </span> 
+                                </Project.FooterButton>
+                            </div>
+
+                        </Project.Footer>
+                    </Project.Root>
+
+                    <Project.Root>
+                        <Project.Image src="ignitodo-thumb.png" alt="Print da tela do app Ignitodo" />
                         <Project.Description>
                             <Project.DescriptionTitle>
                                 Ignitodo
