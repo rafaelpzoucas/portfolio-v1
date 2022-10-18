@@ -94,7 +94,7 @@ function ProjectFooterStacks({ children }: ProjectFooterStacksProps) {
 
 function ProjectFooterButton({ link = "#", outlined = false, children }: ProjectFooterButtonProps) {
     return (
-        <a href={link} className={clsx(
+        <a href={link} target="_blank" className={clsx(
             "flex flex-row items-center gap-3 p-4 sm:px-4 sm:py-2 font-bold rounded-lg transition-all duration-150",
             {
                 "bg-cyan-400 text-slate-800 hover:bg-cyan-500": !outlined,

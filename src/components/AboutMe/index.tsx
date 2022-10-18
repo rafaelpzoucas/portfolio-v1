@@ -29,7 +29,7 @@ export function AboutMe() {
                     <Topic.Image src="small-town.svg" alt="Ilustração de uma cidade pequena" />
 
                     <Topic.Content>
-                        <Topic.Title>Nasci em Assis,</Topic.Title>
+                        <Topic.Title>Sou de Assis,</Topic.Title>
                         <Topic.Text>
                             uma pequena cidade do interior de São Paulo. <br /> Conheci o desenvolvimento web aos 14 anos de idade quando realizei um curso de web design básico, foi onde tive meu primeiro contato com HTML e CSS.
                         </Topic.Text>

@@ -1,6 +1,6 @@
 import { ArrowSquareOut } from "phosphor-react";
 import { FaFigma, FaGithub, FaReact } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
+import { SiTailwindcss, SiTypescript } from "react-icons/si";
 import { SectionHeader } from "../atoms/SectionHeader";
 import { BackgroundCircles } from "../BackgroundCircles";
 import { Project } from "../Project";
@@ -24,30 +24,30 @@ export function Projects() {
 
                 <main className="flex flex-col gap-4 sm:gap-8">
                     <Project.Root>
-                        <Project.Image src="https://sujeitoprogramador.com/wp-content/uploads/2020/12/uiDesign-1.png" alt="Teste" />
+                        <Project.Image src="ignitodo.png" alt="Print da tela do app Ignitodo" />
                         <Project.Description>
                             <Project.DescriptionTitle>
-                                Project name
+                                Ignitodo
                             </Project.DescriptionTitle>
                             <Project.DescriptionText>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus senectus quis vel ultrices congue mattis est. Consectetur sit rhoncus mi sit vitae arcu. Vulputate viverra tempor consectetur aliquet lacus. Mauris ut curabitur et commodo massa curabitur consectetur quis feugiat.
+                                Projeto criado para o desafio do Bootcamp Ignite. O desafio consistia em criar uma aplicação com React e Typescript, no qual seria possível criar tarefas, marcar as concluídas e com um resumo do progresso.
                             </Project.DescriptionText>
                         </Project.Description>
                         <Project.Footer>
                             <Project.FooterStacks>
-                                <FaReact />
-                                <SiTailwindcss />
-                                <FaFigma />
+                                <SiTypescript title="Typescript" />
+                                <FaReact title="ReactJs" />
+                                <SiTailwindcss title="Tailwindcss" />
                             </Project.FooterStacks>
 
                             <div className="flex flex-row gap-2">
-                                <Project.FooterButton outlined>
+                                <Project.FooterButton outlined link="https://github.com/rafaelpzoucas/ignitodo">
                                     <FaGithub className="text-2xl" />
                                     <span className="hidden sm:flex">
                                         Ver no GitHub
                                     </span>
                                 </Project.FooterButton>
-                                <Project.FooterButton >
+                                <Project.FooterButton link="https://ignitodo.vercel.app/">
                                     <ArrowSquareOut size={24} />
                                     <span className="hidden sm:flex">
                                         Ver em produção
@@ -58,7 +58,14 @@ export function Projects() {
                         </Project.Footer>
                     </Project.Root>
 
-                    <div className="flex flex-col items-start sm:grid sm:grid-cols-2 gap-4 sm:gap-8">
+                    <div className="flex flex-col items-center justify-center gap-8 m-auto mt-16">
+                        <img src="comming-soon.svg" alt="Ilustração de planetas" />
+                        <span className="text-cyan-400 text-2xl">
+                            Mais projetos em breve...
+                        </span>
+                    </div>
+
+                    {/* <div className="flex flex-col items-start sm:grid sm:grid-cols-2 gap-4 sm:gap-8">
                         <Project.Root>
                             <Project.Image src="https://sujeitoprogramador.com/wp-content/uploads/2020/12/uiDesign-1.png" alt="Teste" />
                             <Project.Description>
@@ -128,7 +135,7 @@ export function Projects() {
 
                             </Project.Footer>
                         </Project.Root>
-                    </div>
+                    </div> */}
                 </main>
             </section>
 
