@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 #noise {
-    background: url(noise.png);
+    background: url(../../public/noise.png)
 }
 
 html {
