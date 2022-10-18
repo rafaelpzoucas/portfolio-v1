@@ -43,7 +43,7 @@ export function Projects() {
                             </Project.FooterStacks>
 
                             <div className="flex flex-row gap-2">
-                                <Project.FooterButton link="#">
+                                <Project.FooterButton link="http://wm10.com.br/">
                                     <ArrowSquareOut size={24} />
                                     <span className="hidden sm:flex">
                                         Ver em produção
