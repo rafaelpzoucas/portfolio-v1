@@ -84,7 +84,7 @@ export function AboutMe() {
             </section>
 
             <BackgroundCircles 
-                className="bottom-0 right-0 rotate-90 w-2/3 max-w-md" 
+                className="bottom-0 right-0 rotate-180 w-2/3 max-w-md" 
             />
         </div>
     )
