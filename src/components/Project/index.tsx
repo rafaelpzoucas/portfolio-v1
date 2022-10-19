@@ -47,7 +47,7 @@ function ProjectRoot({ children }: ProjectRootProps) {
 function ProjectImage({ src, alt, ...props }: ProjectImageProps) {
     return (
         <div className="h-80 sm:h-full">
-            <img src={src} alt={alt} className="h-full rounded-md object-cover" {...props} />
+            <img src={src} alt={alt} className="w-full h-full rounded-md object-cover" {...props} />
         </div>
     )
 }
