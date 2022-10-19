@@ -31,7 +31,7 @@ export function Projects() {
                                 ERP WM10
                             </Project.DescriptionTitle>
                             <Project.DescriptionText>
-                                Projeto criado para o desafio do Bootcamp Ignite. O desafio consistia em criar uma aplicação com React e Typescript, no qual seria possível criar tarefas, marcar as concluídas e com um resumo do progresso.
+                                Redesign do site do WM10, realizado durante o período de estágio na empresa. Projeto desenvolvido com HTML, CSS, JS, Bootstrap e a biblioteca SplideJs para os carroséis. 
                             </Project.DescriptionText>
                         </Project.Description>
                         <Project.Footer>
@@ -43,12 +43,13 @@ export function Projects() {
                             </Project.FooterStacks>
 
                             <div className="flex flex-row gap-2">
-                                <Project.FooterButton link="http://wm10.com.br/">
+                                {/* <Project.FooterButton>
                                     <ArrowSquareOut size={24} />
                                     <span className="hidden sm:flex">
-                                        Ver em produção
+                                        Visitar
                                     </span> 
-                                </Project.FooterButton>
+                                </Project.FooterButton> */}
+                                <span className="text-zinc-400">Link em breve</span>
                             </div>
 
                         </Project.Footer>
@@ -81,7 +82,7 @@ export function Projects() {
                                 <Project.FooterButton link="https://ignitodo.vercel.app/">
                                     <ArrowSquareOut size={24} />
                                     <span className="hidden sm:flex">
-                                        Ver em produção
+                                        Visitar
                                     </span> 
                                 </Project.FooterButton>
                             </div>
