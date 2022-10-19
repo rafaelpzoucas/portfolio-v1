@@ -24,7 +24,7 @@ export function AboutMe() {
                         </Topic.Text>
                     </Topic.Content>
                 </Topic.Root>
-
+                
                 <Topic.Root reverse>
                     <Topic.Image src="small-town.svg" alt="Ilustração de uma cidade pequena" />
 

@@ -59,7 +59,7 @@ function TopicTitle({ children }: TopicTitleProps) {
 
 function TopicText({ children }: TopicTextProps) {
     return (
-        <p className="text-xl leading-8 py-4">{children}</p>
+        <p className="text-xl leading-8 py-4 max-w-3xl">{children}</p>
     )
 }
 
