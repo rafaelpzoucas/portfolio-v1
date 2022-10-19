@@ -9,7 +9,7 @@ module.exports = {
       animation: {
         'pulse-slow': 'pulse 5s linear infinite',
         'gradient': 'gradient 3s infinite cubic-bezier(.62, .28, .23, .99) both',
-        'gradient-slow': 'gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both',
+        'gradient-slow': 'gradient 6s infinite cubic-bezier(.62, .28, .23, .99) both',
         'bounce-slow': 'bounce 2s ease-in-out infinite',
       },
       keyframes: {
