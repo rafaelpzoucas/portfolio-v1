@@ -31,7 +31,7 @@ export function Projects() {
                                 ERP WM10
                             </Project.DescriptionTitle>
                             <Project.DescriptionText>
-                                Redesign do site do WM10, realizado durante o período de estágio na empresa. Projeto desenvolvido com HTML, CSS, JS, Bootstrap e a biblioteca SplideJs para os carroséis. 
+                                Redesign do site do WM10, realizado durante o período de estágio na empresa. Projeto desenvolvido com HTML, CSS, JS, Bootstrap e a biblioteca SplideJs para os carroséis. Projeto finalizado em outubro de 2022.
                             </Project.DescriptionText>
                         </Project.Description>
                         <Project.Footer>
