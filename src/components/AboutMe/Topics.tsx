@@ -53,7 +53,7 @@ function TopicContent({ children }: TopicContentProps) {
 
 function TopicTitle({ children }: TopicTitleProps) {
     return (
-        <h1 className="text-5xl mb-4">{children}</h1>
+        <h1 className="text-4xl">{children}</h1>
     )
 }
 
