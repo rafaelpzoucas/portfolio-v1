@@ -40,7 +40,7 @@ function TopicRoot({ children, reverse = false }: TopicRootProps) {
 }
 
 function TopicImage({ src, alt, ...props }: TopicImageProps) {
-    return <img src={src} alt={alt} {...props} />
+    return <img src={src} alt={alt} {...props}  />
 }
 
 function TopicContent({ children }: TopicContentProps) {

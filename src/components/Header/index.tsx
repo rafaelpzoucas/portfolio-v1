@@ -18,7 +18,7 @@ export function Header() {
                     <ul className="hidden sm:flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-4">
                         <li><a href="#projects">Portfólio</a></li>
                         <li><a href="#about">Sobre mim</a></li>
-                        <li><a href="#comments">Comentários</a></li>
+                        {/* <li><a href="#comments">Comentários</a></li> */}
                         <li><a href="#getInTouch">Contato</a></li>
                     </ul>
                 </div>

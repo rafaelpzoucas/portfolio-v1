@@ -26,7 +26,7 @@ export function AboutMe() {
                         <Topic.Content>
                             <Topic.Title>Olá,</Topic.Title>
                             <Topic.Text>
-                                meu nome é Rafael, sou desenvolvedor Front-end, com foco em Design de Interfaces e Experiência de Usuário (UX). Combinando meus conhecimentos de design e programação, consigo transformar ideias em interfaces profissionais e acessíveis para qualquer tipo de usuário. 
+                                meu nome é Rafael, sou desenvolvedor Front-end apaixonado por Design de Interfaces e Experiência de Usuário (UX). Com minha combinação de habilidades em design e programação, sou capaz de transformar ideias em interfaces profissionais e acessíveis para todos os tipos de usuário. 
                             </Topic.Text>
                         </Topic.Content>
                     </Topic.Root>
@@ -35,48 +35,31 @@ export function AboutMe() {
                         <Topic.Image src="small-town.svg" alt="Ilustração de uma cidade pequena" />
 
                         <Topic.Content>
-                            <Topic.Title>Sou de Assis,</Topic.Title>
+                            <Topic.Title>Meus primeiros passos</Topic.Title>
                             <Topic.Text>
-                                uma pequena cidade do interior de São Paulo. <br /> Conheci o desenvolvimento web aos 14 anos de idade quando realizei um curso de web design básico, foi onde tive meu primeiro contato com HTML e CSS.
+                                no mundo da programação começaram quando eu era adolescente, aos 14 anos, com um curso básico de web design. Desde então, continuei evoluindo meus conhecimentos, estudando Análise e Desenvolvimento de Sistemas na FEMA e aprendendo minha primeira linguagem de programação, C++.
                             </Topic.Text>
                         </Topic.Content>
                     </Topic.Root>
 
                     <Topic.Root>
-                        <Topic.Image src="coding.svg" alt="Ilustração de uma pessoa aprendendo programação na sala de aula" />
+                        <Topic.Image src="delivery.svg" alt="Ilustração de um entregador fazendo uma entrega" />
 
                         <Topic.Content>
-                            <Topic.Title>Aos 18 anos,</Topic.Title>
+                            <Topic.Title>Em meio aos desafios financeiros,</Topic.Title>
                             <Topic.Text>
-                                após terminar o ensino médio, entrei para a faculdade de Análise e Desenvolvimento de Sistemas pela FEMA, onde aprendi mais a fundo sobre lógica de programação e aprendi minha primeira linguagem o famoso C++. Com o orçamento apertado, no início do último ano do curso, precisei trancar a matrícula. 
+                                tive que trancar a faculdade e trabalhar como motoboy em uma lanchonete local. Foi aí que tive a oportunidade de empreender, fundando a empresa Helix Delivery em janeiro de 2019. Com o sucesso da empresa, tive que automatizar seus processos, o que me levou de volta a estudar programação em 2021 através do bootcamp Ignite da Rocketseat.
                             </Topic.Text>
                         </Topic.Content>
                     </Topic.Root>
 
                     <Topic.Root reverse>
-                        <Topic.Image src="delivery.svg" alt="Ilustração de um entregador fazendo uma entrega" />
-
-                        <Topic.Content>
-                            <Topic.Title>Trabalhei como motoboy</Topic.Title>
-                            <Topic.Text>
-                                em uma lanchonete da cidade e percebi uma oportunidade para empreender, pois eu via como era difícil para o gerente conseguir entregadores. “E se tivesse uma empresa de motoboys?”
-                            </Topic.Text>
-                            <Topic.Text>
-                                Na época não existia nenhum serviço desse tipo na cidade e resolvi arriscar. E em janeiro de 2019, nasce a Helix Delivery. Sem surpresa nenhuma, o projeto foi um sucesso e no nosso segundo ano aconteceu a pandemia (covid-19) o que alavancou ainda mais a empresa. 
-                            </Topic.Text>
-                            <Topic.Text>
-                                Nosso atendimento era 100% manual e chegou um momento que precisei automatizar as coisas, então em 2021 voltei a estudar programação, entrei no bootcamp Ignite da Rocketseat, o que acelerou muito o meu aprendizado.
-                            </Topic.Text>
-                        </Topic.Content>
-                    </Topic.Root>
-
-                    <Topic.Root>
                         <Topic.Image src="programming.svg" alt="Ilustração de uma pessoa programando" />
 
                         <Topic.Content>
                             <Topic.Title>Hoje,</Topic.Title>
                             <Topic.Text>
-                                corro atrás de um sonho, que é trabalhar com o que eu realmente amo fazer, criar design de interfaces, desenvolver sites e aplicações e ao mesmo tempo, através da programação, ajudar pessoas a realizarem seus objetivos, tornando o mundo um lugar melhor.
+                                busco realizar meu sonho de trabalhar com o que eu amo: criar design de interfaces, desenvolver sites e aplicativos e ajudar pessoas a alcançar seus objetivos, tornando o mundo um lugar melhor. Estou animado para continuar aprendendo e evoluindo em minha carreira.
                             </Topic.Text>
                         </Topic.Content>
                     </Topic.Root>
