@@ -1,6 +1,6 @@
 import { ArrowSquareOut } from "phosphor-react";
 import { FaBootstrap, FaFigma, FaGithub, FaHtml5, FaReact } from "react-icons/fa";
-import { SiBootstrap, SiCss3, SiHtml5, SiJavascript, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { SiBootstrap, SiCss3, SiEslint, SiHtml5, SiJavascript, SiStyledcomponents, SiTailwindcss, SiTypescript } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import { SectionHeader } from "../atoms/SectionHeader";
 import { BackgroundCircles } from "../BackgroundCircles";
@@ -24,6 +24,44 @@ export function Projects() {
                 </SectionHeader.Root>
 
                 <main className="flex flex-col gap-4 sm:gap-8">
+                    <Project.Root>
+                        <Project.Image src="marvel-thumb.jpg" alt="Print da tela do app Marvel Characters Explorer" />
+                        <Project.Description>
+                            <Project.DescriptionTitle>
+                                Marvel Characters Explorer
+                            </Project.DescriptionTitle>
+                            <Project.DescriptionText>
+                                O Marvel Characters Explorer é um aplicativo desenvolvido com React e Styled Components que permite aos usuários explorarem o vasto universo de personagens da Marvel Comics. Durante o processo criativo, um dos principais objetivos foi criar uma experiência imersiva, que remetesse ao estilo único e vibrante das revistas em quadrinhos da Marvel.
+                            </Project.DescriptionText>
+                            <Project.DescriptionText>
+                                Para alcançar esse efeito, foi desenvolvido um layout inspirado nas páginas de uma revista em quadrinhos, com cores vibrantes, tipografia chamativa e elementos gráficos que remetem ao estilo artístico dos quadrinhos. Cada detalhe do design foi cuidadosamente pensado para transmitir a atmosfera dinâmica e emocionante das histórias em quadrinhos da Marvel.
+                            </Project.DescriptionText>
+                        </Project.Description>
+                        <Project.Footer>
+                            <Project.FooterStacks>
+                                <SiTypescript title="Typescript" />
+                                <FaReact title="ReactJs" />
+                                <SiStyledcomponents title="Styled-components" />
+                                <SiEslint title="ESLint" />
+                            </Project.FooterStacks>
+
+                            <div className="flex flex-row gap-2">
+                                <Project.FooterButton outlined link="https://github.com/rafaelpzoucas/marvel-app">
+                                    <FaGithub className="text-2xl" />
+                                    <span className="hidden sm:flex">
+                                        Ver no GitHub
+                                    </span>
+                                </Project.FooterButton>
+                                <Project.FooterButton link="https://marvel-app-z.vercel.app/">
+                                    <ArrowSquareOut size={24} />
+                                    <span className="hidden sm:flex">
+                                        Visitar
+                                    </span> 
+                                </Project.FooterButton>
+                            </div>
+                        </Project.Footer>
+                    </Project.Root>
+                    
                     <Project.Root>
                         <Project.Image src="wm10-thumb.png" alt="Print da tela da landing page do WM10" />
                         <Project.Description>
